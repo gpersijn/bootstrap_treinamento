@@ -1,0 +1,52 @@
+/* --------- COMPONENTS / GENERAL --------- */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.text-white {
+  color: white;
+}
+/* ---- Button ---- */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* --------------- NAV BAR ---------------- */
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* ---------------- TITLE ------------------ */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#image-title {
+  transform: rotate(25deg);
+  max-width: 60%;
+  height: auto;
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+}
