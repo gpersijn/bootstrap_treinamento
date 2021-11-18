@@ -37,11 +37,12 @@ h1 {
 .container-fluid {
   padding: 3% 15%;
 }
-
 #title {
   background-color: #ff4c68;
+  /* overflow: hidden; */
 }
 
+/* --- Image --- */
 #image-title {
   transform: rotate(25deg);
   max-width: 60%;
@@ -49,4 +50,36 @@ h1 {
   position: relative;
   left: 2rem;
   top: 1rem;
+  /* margin-bottom: -40%; */
+}
+
+/* --------------- FEATURE --------------- */
+
+#features {
+  padding: 7% 17% 7% 13%;
+}
+.color-icon {
+  color: #ef8172;
+  margin-bottom: 1.2rem;
+}
+.montserrat-bold {
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  width: max-content;
+}
+.text-feature {
+  font-size: 0.8rem;
+  color: #8f8f8f;
+}
+.div-feature {
+  text-align: center;
+  padding: 5%;
+}
+.div-feature2 {
+  text-align: center;
+  padding: 5% 1% 5%;
+}
+.color-icon:hover {
+  color: #ff4c68;
 }
