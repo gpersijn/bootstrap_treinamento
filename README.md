@@ -1,5 +1,5 @@
-# 📄 Descrição
-> Treinamento front-end com a tecnologia Bootstrap
+# 🐶 Descrição
+> Treinamento front-end com a tecnologia Bootstrap para a criação de um website sobre o TinDog - um aplicativo de relacionamentos para o seu cachorro!
 
 # ⚙️ Tecnologia
 <div allign="center">
