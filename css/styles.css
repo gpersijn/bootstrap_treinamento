@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
@@ -52,10 +52,10 @@ h1 {
   bottom: 1rem;
 }
 
-/* --------------- FEATURE --------------- */
+/* --------------- FEATURES --------------- */
 
 #features {
-  padding: 7% 17% 7% 13%;
+  padding: 6% 17% 6% 13%;
 }
 .color-icon {
   color: #ef8172;
@@ -86,7 +86,40 @@ h1 {
   width: max-content;
 }
 
-/* --------- RESPONSIVIDADE ----------- */
+/* ------------- TESTIMONIALS ------------- */
+.image-testimonial {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.h2-testimonials {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* ------------- PRESS ------------- */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo-press {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ----------- RESPONSIVIDADE ------------- */
 @media (max-width: 1028px) {
   #title {
     text-align: center;
