@@ -35,7 +35,7 @@ h1 {
 
 /* ---------------- TITLE ------------------ */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
   overflow: hidden;
 }
 #title {
@@ -45,17 +45,16 @@ h1 {
 /* --- Image --- */
 #image-title {
   transform: rotate(25deg);
-  max-width: 60%;
-  height: auto;
-  position: relative;
-  left: 3rem;
-  bottom: 1rem;
+  width: 23%;
+  position: absolute;
 }
 
 /* --------------- FEATURES --------------- */
 
 #features {
   padding: 6% 17% 6% 13%;
+  position: relative;
+  background-color: #fff;
 }
 .color-icon {
   color: #ef8172;
@@ -184,12 +183,15 @@ h1 {
 
 /* ----------- RESPONSIVIDADE ------------- */
 @media (max-width: 1028px) {
+  /* -------- Title --------- */
   #title {
     text-align: center;
   }
   #image-title {
-    margin-bottom: -30%;
+    margin-bottom: -40%;
     top: 2rem;
+    position: relative;
+    width: 60%;
   }
   h1 {
     font-size: 4rem;
@@ -197,6 +199,7 @@ h1 {
   .montserrat-bold {
     font-size: 2rem;
   }
+  /* ------- Feature ------- */
   .text-feature {
     font-size: 1.4rem;
   }
