@@ -52,7 +52,7 @@ h1 {
 /* --------------- FEATURES --------------- */
 
 #features {
-  padding: 6% 17% 6% 13%;
+  padding: 7% 17% 7% 13%;
   position: relative;
   background-color: #fff;
 }
@@ -153,10 +153,10 @@ h1 {
 }
 
 .pricing__btn1 {
-  color: #ef8172;
+  color: #ff4c68;
   background-color: transparent;
   background-image: none;
-  border-color: #ef8172;
+  border-color: #ff4c68;
   font-weight: 500;
 }
 .pricing__btn1:hover {
@@ -165,7 +165,7 @@ h1 {
   border-color: #fff;
 }
 .pricing__btn2 {
-  background-color: #ef8172;
+  background-color: #ff4c68;
   border-color: #fff;
 }
 .pricing__btn2:hover {
@@ -181,6 +181,42 @@ h1 {
   text-align: center;
 }
 
+/* -------- Call to Action --------- */
+.btn-cta {
+  margin: 1% 1%;
+}
+.btn-cta:hover {
+  color: #ff4c68;
+}
+#cta {
+  padding: 11% 14%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+#text-cta {
+  margin-bottom: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 2.9rem;
+}
+
+/* ---------- Footer ----------- */
+.icon-ft {
+  padding: 0% 1%;
+}
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7%;
+}
+#p-footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #8f8f8f;
+  margin-top: 1rem;
+}
+
 /* ----------- RESPONSIVIDADE ------------- */
 @media (max-width: 1028px) {
   /* -------- Title --------- */
@@ -192,6 +228,7 @@ h1 {
     top: 2rem;
     position: relative;
     width: 60%;
+    transform: rotate(0deg);
   }
   h1 {
     font-size: 4rem;
@@ -209,5 +246,23 @@ h1 {
   }
   #two-lines {
     width: auto;
+  }
+
+  /* ----- Pricing ------ */
+  .pricing-column {
+    padding: 0% 4%;
+  }
+  #pricing {
+    padding: 10% 15%;
+    text-align: center;
+  }
+
+  /* ------- Cta ------- */
+  #text-cta {
+    margin: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 2.4rem;
   }
 }
